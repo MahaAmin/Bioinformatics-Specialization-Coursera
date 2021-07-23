@@ -13,10 +13,10 @@ def patternCount(text, pattern):
     end = len(text) - len(pattern)
     patternLength = len(pattern)
     for i in range(end):
-        if text[i:i+patternLength] == pattern:
+        if text[i:i+patternLength] == pattern:  
             count+=1
     return count
 
 
-text, pattern = readInput('dataset_2_6.txt')
+text, pattern = readInput('input/rosalind_ba1a.txt')
 print(patternCount(text,pattern))
