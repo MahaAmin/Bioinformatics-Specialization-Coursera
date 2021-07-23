@@ -1,6 +1,3 @@
-from typing import Sequence
-
-
 def readInput(fileName):
     f = open(fileName, 'r')
     lines = f.readlines()
